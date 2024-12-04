@@ -11,7 +11,7 @@ function page({params}: {
     params: {slug: string[]}
 }) {
   return (
-    <div>Optional catch all segments page</div>
+    <div>Optional catch all segments page {params.slug[0]}</div>
   )
 }
 
